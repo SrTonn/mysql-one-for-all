@@ -67,7 +67,7 @@ VALUES
   ('student', 5.99),
   ('individual', 6.99),
   ('family', 7.99);
-  
+
 INSERT INTO SpotifyClone.artists (artist)
 VALUES
   ('Walter Phoenix'),
@@ -76,7 +76,7 @@ VALUES
   ('Freedie Shannon'),
   ('Tyler Isle'),
   ('Fog');
-  
+
 INSERT INTO SpotifyClone.albums (album, release_year, artist_id)
 VALUES
   ('Envious', 1990, 1),
@@ -89,20 +89,20 @@ VALUES
   ('Cabinet of fools', 2012, 5),
   ('No guarantees', 2015, 5),
   ('Apparatus', 2015, 6);
-  
+
 INSERT INTO SpotifyClone.users (user, age, plan_id)
 VALUES
   ('Thati', 23, 1),
   ('Cintia', 35, 4),
   ('Bill', 20, 2),
-  ('Roger', 45, 4),
+  ('Roger', 45, 3),
   ('Norman', 58, 3),
   ('Patrick', 33, 4),
   ('Vivian', 26, 2),
   ('Carol', 19, 2),
   ('Angelina', 42, 4),
   ('Paul', 46, 4);
-  
+
 INSERT INTO SpotifyClone.songs (song, album_id, duration_seconds)
 VALUES
   ('Soul For Us', 1, 200),
@@ -145,7 +145,7 @@ VALUES
   ('Wouldn\'t It Be Nice', 10, 213),
   ('Baby', 10, 136),
   ('You Make Me Feel So..', 10, 83);
-  
+
 INSERT INTO SpotifyClone.history (user_id, song_id, reproduction_history)
 VALUES
   (1, 36, '2020-02-28 10:45:55'),
@@ -186,7 +186,7 @@ VALUES
   (10, 21, '2017-12-04 05:33:43'),
   (10, 12, '2017-07-27 05:24:49'),
   (10, 13, '2017-12-25 01:03:57');
-  
+
 INSERT INTO SpotifyClone.artists_followers (user_id, artist_id)
 VALUES
   (1, 1),
